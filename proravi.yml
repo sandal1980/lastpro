@@ -6,4 +6,8 @@
       service:
         name: httpd
         state: restarted
+    - name: vsftpd
+      service:
+        name: vsftpd
+        state: restarted
 ...        
