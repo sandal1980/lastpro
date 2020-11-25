@@ -1,0 +1,9 @@
+---
+- name: STARTING SERVICE
+  hosts: all
+  tasks:
+    - name: Starting HTTP service
+      service:
+        name: httpd
+        state: restarted
+...        
